@@ -3,7 +3,7 @@ function Homepage() {
     <div className="homepage-container">
       {/* This is where our sections will go */}
       <header>
-        <h1>Welcome to My Website</h1>
+        <h1>Welcome to My Aravli E Services</h1>
       </header>
     </div>
   );
