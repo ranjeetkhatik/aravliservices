@@ -1,5 +1,4 @@
 
-import './output.css'
 import Homepage from './components/Homepage'
 
 function App() {
