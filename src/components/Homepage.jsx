@@ -1,9 +1,13 @@
+import Navbar from "./Navbar";
+
 function Homepage() {
   return (
     <div className="homepage-container">
       {/* This is where our sections will go */}
       <header>
-        <h1>Welcome to My Aravli E Services</h1>
+        <Navbar />
+        <h1>Welcome to Aravli E Services</h1>
+       
       </header>
     </div>
   );
