@@ -82,4 +82,4 @@ function ContactForm() {
   );
 };
 
-export default ContactForm
+export default ContactForm;
