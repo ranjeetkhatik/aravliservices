@@ -1,5 +1,6 @@
 import { useTranslation } from "react-i18next";
 import Navbar from "./Navbar";
+import ContactForm from "./contactform";
 
 
 
@@ -12,6 +13,8 @@ function Homepage() {
       <header>
         <Navbar />
        <p>{t('greeting')}</p>
+
+       <ContactForm />
       </header>
     </div>
   );
