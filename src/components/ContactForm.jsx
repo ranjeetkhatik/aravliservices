@@ -31,7 +31,7 @@ function ContactForm() {
   })
   .then(() => alert("संदेश सफलतापूर्वक भेज दिया गया! ✅"))
   .catch(error => alert("कुछ गड़बड़ हो गई: " + error));
-};
+
   };
 
   return (
