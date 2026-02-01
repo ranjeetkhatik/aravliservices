@@ -38,6 +38,7 @@ function ContactForm() {
             <div>
               <label className="block text-sm font-medium text-gray-700">नाम</label>
               <input 
+                name="name"
                 type="text" 
                 required
                 className="mt-1 w-full p-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-gray-700 outline-none"
@@ -49,6 +50,7 @@ function ContactForm() {
             <div>
               <label className="block text-sm font-medium text-gray-700">मोबाइल</label>
               <input 
+                name="mobile"
                 type="number" 
                 required
                 className="mt-1 w-full p-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-gray-700 outline-none"
@@ -62,6 +64,7 @@ function ContactForm() {
           <div>
             <label className="block text-sm font-medium text-gray-700">संदेश</label>
             <textarea 
+              name="message"
               rows="4" 
               className="mt-1 w-full p-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-gray-700 outline-none"
               placeholder="आपका संदेश यहाँ लिखें..."
