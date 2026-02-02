@@ -63,7 +63,7 @@ function ContactForm() {
                 type="text" 
                 required
                 className="mt-1 w-full p-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-gray-700 outline-none"
-                placeholder="आपका नाम"
+                placeholder="आपका नाम."
                 onChange={(e) => setFormData({...formData, name: e.target.value})}
               />
             </div>
