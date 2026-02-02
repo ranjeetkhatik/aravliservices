@@ -10,10 +10,7 @@ function ContactForm() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log("Form Submitted:", formData);
-    alert("शुक्रिया! आपका संदेश हमें मिल गया है।");
-
-   
+    console.log("Form Submitted:", formData);   
   };
 
   return (
