@@ -12,6 +12,7 @@ const Navbar = () => {
       <div className="text-3xl font-bold text-yellow-100">अरावली ई सर्विसेज</div>
       <div>
         <ul className="hidden md:flex space-x-6 text-yellow-100 items-center">
+           <li className="hover:text-blue-500 cursor-pointer">{t('services')}</li>
         <li className="hover:text-blue-500 cursor-pointer">{t('home')}</li>
         <li className="hover:text-blue-500 cursor-pointer">{t('features')}</li>
        

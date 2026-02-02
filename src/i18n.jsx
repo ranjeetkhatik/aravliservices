@@ -13,7 +13,8 @@ i18n.use(LanguageDetector).use(initReactI18next).init({
             "home": "मुख्य पृष्ठ",
             "features": "विशेषताएं",
             "get_started": "शुरू करें",
-            "change_lang": "English चुनें"
+            "change_lang": "English चुनें",
+            "services":"हमारी सेवाएं",
           },
 
         },
@@ -23,7 +24,8 @@ i18n.use(LanguageDetector).use(initReactI18next).init({
             "home": "Home",
             "features": "Features",
             "get_started": "Get Started",
-            "change_lang": "हिंदी चुनें"
+            "change_lang": "हिंदी चुनें",
+            "services":"Our Services",
           },
 
         },
