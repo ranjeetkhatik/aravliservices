@@ -11,6 +11,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@netlify/vite-plugin": "^2.8.0",
     "i18next": "^25.8.0",
     "i18next-browser-languagedetector": "^8.2.0",
     "react": "^19.1.1",
