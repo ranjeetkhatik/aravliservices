@@ -13,25 +13,7 @@ function ContactForm() {
     console.log("Form Submitted:", formData);
     alert("शुक्रिया! आपका संदेश हमें मिल गया है।");
 
-    // 1. डेटा को Netlify के समझने लायक फॉर्मेट (URL-encoded) में बदलना
-    const encode = (data) => {
-    return Object.keys(data)
-      .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
-      .join("&");
-  }
-
-  // 2. Netlify को डेटा भेजना
-  fetch("/", {
-    method: "POST",
-    headers: { "Content-Type": "application/x-www-form-urlencoded" },
-    body: encode({ 
-      "form-name": "contact", // यह आपके फॉर्म का 'name' है
-      ...formData            // आपका मौजूदा ऑब्जेक्ट डेटा
-    })
-  })
-  .then(() => alert("संदेश सफलतापूर्वक भेज दिया गया! ✅"))
-  .catch(error => alert("कुछ गड़बड़ हो गई: " + error));
-
+   
   };
 
   return (
