@@ -76,7 +76,7 @@ function ContactForm() {
                 required
                 className="mt-1 w-full p-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-gray-700 outline-none"
                 placeholder="आपका मोबाइल नंबर"
-                onChange={(e) => setFormData({...formData, email: e.target.value})}
+                onChange={(e) => setFormData({...formData, mobile: e.target.value})}
               />
             </div>
           </div>
