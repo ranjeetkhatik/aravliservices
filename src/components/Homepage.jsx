@@ -14,7 +14,7 @@ function Homepage() {
         <Navbar />
        <p>{t('greeting')}</p>
 
-     
+     <ContactForm />
       </header>
     </div>
   );
