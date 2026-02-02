@@ -54,7 +54,7 @@ function ContactForm() {
         </div>
 
         {/* दायां हिस्सा: फॉर्म (Form Section) */}
-        <form name="contact" method="POST" data-netlify="true" onSubmit={handleSubmit} className="md:w-2/3 p-8 space-y-4">
+        <form name="contact" method="POST" data-netlify="true" onSubmit={handleSubmit} className="md:w-2/3 p-8 space-y-4" netlify>
         <input type="hidden" name="form-name" value="contact" />
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {/* नाम */}
